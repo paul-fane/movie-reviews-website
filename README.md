@@ -1,6 +1,6 @@
 # CONSIGLIO
 
-#### Video Demo: <[URL HERE](https://youtu.be/...)>
+#### Video Demo: <[URL HERE](https://www.youtube.com/watch?v=1Z6GFhjftZ0)>
 
 ### Table of Contents
 
@@ -91,8 +91,7 @@ La lista degli endpoints disponibili all`interno dell' API app:
 -L'utente potra poi utilizzare l'```access token``` per poter accedere agli endpoint che necessitano l'autenticazione. <br>
 -L'access token contiene dentro di se alcune informazione come ad esempio l'username dell'utente, in questo modo ogni endpoint riesce a capiere quale è l'utente che sta accedendo. <br>
 -Gli endpoint decorati con “**```@permission_classes([IsAuthenticated])```**” sono gli endpoint che necessitano l'autenticazione, quindi all'interno del header di ogni richesta bisogna allegare l'access token. <br>
--Nella lista delle opzioni di SIMPLE_JWT l'“**```AUTH_HEADER_TYPES```**” by default è impostata su ```(‘Bearer’,)```, questo vuol dire che il tipo di header che sarà accetato per l'autenticazione è "Bearer". Il valore di "Bearer" vuol dire che gli endpoint che necessitano l'autenticazione cercheranno un header con il seguento formato:<br>  
-**```Authorization: Bearer``` ```<token>```**
+-Nella lista delle opzioni di SIMPLE_JWT l'“**```AUTH_HEADER_TYPES```**” by default è impostata su ```(‘Bearer’,)```, questo vuol dire che il tipo di header che sarà accetato per l'autenticazione è "Bearer". Il valore di "Bearer" vuol dire che gli endpoint che necessitano l'autenticazione cercheranno un header con il seguento formato: **```Authorization: Bearer <token>```**
 
 - **'token/refresh/'**, TokenRefreshView.as_view()<br>
 **```Utilizzata per aggiornare i tokens.```**<br>
