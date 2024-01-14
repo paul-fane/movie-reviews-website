@@ -49,15 +49,3 @@ voto e per piattaforma.
 voto.
 - Visualizzare tutti i film ancora non visti consigliati da un altro utente.
 - Visualizzare i film non visti consigliati da tutti gli altri utenti ordinati per la media dei voti ricevuti.
-
-- Registrarsi e fare login alla piattaforma
-- Aggiungere un nuovo film alla piattaforma
-- egnare un film nella lista come ‘visto’
-- Vedere la lista dei film, e se la richiesta è autenticata, visualizzare un booleano che indica se l’utente loggato ha già visto il film.
-- Filtrare per film visti/non visti
-- Filtrare i film per piattaforma (Netfilix/Prime ecc)
-- Postare un consiglio. Ogni consiglio ha un voto da 1 a 10 e un piccolo commento dell’utente.
-- Visualizzare tutti i consigli postati da un utente, offrendo la possibilità di ordinare per voto e per piattaforma.
-- Visualizzare tutti i consigli su un determinato film, offrendo la possibilità di ordinare per voto.
-- Visualizzare tutti i film ancora non visti consigliati da un altro utente.
-- Visualizzare i film non visti consigliati da tutti gli altri utenti ordinati per la media dei voti ricevuti.
